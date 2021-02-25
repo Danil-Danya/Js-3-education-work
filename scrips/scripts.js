@@ -9,12 +9,10 @@ for(let i = 1; i <= b; i++){
     c = c * a;
     if(i >= b){
         console.log(c);
+    }else if(c  <= 0 || isNaN(a) || isNaN(b) || isNaN(a && b) || a == 0 || b == 0 || a && b == 0){
+        alert("Что-то пошло не так");
     }else{
-        if(c  <= 0 || isNaN(a) || isNaN(b) || isNaN(a && b) || a == 0 || b == 0 || a && b == 0){
-            alert("Что-то пошло не так");
-        }else{
-            console.log("Что-то пошло не так");
-        }
+        console.log();
     }
 }
 
